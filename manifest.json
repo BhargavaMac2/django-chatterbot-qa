@@ -1,0 +1,41 @@
+{
+  "assignment": "Hands-On Assignment 3: Create a Simple Q&A Chatbot with Python",
+  "course": "MSCS-633-B01 Advance Artificial Intelligence",
+  "project_name": "django-chatterbot-qa",
+  "repository": "https://github.com/BhargavaMac2/django-chatterbot-qa",
+  "language": "Python",
+  "python_version": "3.12.13",
+  "framework": "Django 5.2.19",
+  "main_file": "chatbot.py",
+  "training_file": "train_chatbot.py",
+  "dependency_file": "requirements.txt",
+  "dependencies": [
+    "Django==5.2.19",
+    "ChatterBot==1.2.17",
+    "spaCy English model: en_core_web_sm"
+  ],
+  "project_files": [
+    "chatbot.py",
+    "train_chatbot.py",
+    "manage.py",
+    "requirements.txt",
+    "README.md",
+    ".gitignore",
+    "chatbot_app/",
+    "chatbot_project/"
+  ],
+  "commands": {
+    "install_dependencies": "python -m pip install -r requirements.txt",
+    "install_language_model": "python -m spacy download en_core_web_sm",
+    "create_chatterbot_migration": "python manage.py makemigrations django_chatterbot",
+    "apply_migrations": "python manage.py migrate",
+    "train_chatbot": "python train_chatbot.py",
+    "run_chatbot": "python chatbot.py",
+    "django_check": "python manage.py check",
+    "migration_check": "python manage.py makemigrations --check --dry-run"
+  },
+  "expected_input": "A question entered through the terminal",
+  "expected_output": "A trained chatbot response or the configured fallback response",
+  "database": "SQLite database generated locally and excluded from the repository",
+  "interface": "Command-line interface"
+}
