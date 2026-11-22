@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local database
+db.sqlite3
+db.sqlite3-journal
+
+# Environment and secrets
+.env
+.env.*
+
+# macOS files
+.DS_Store
+
+# VS Code local configuration
+.vscode/
