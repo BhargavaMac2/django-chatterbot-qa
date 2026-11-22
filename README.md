@@ -37,6 +37,7 @@ Django, artificial intelligence, and machine learning.
 - chatbot_app/training_data.py: Training conversations
 - chatbot_project/settings.py: Django configuration
 - manage.py: Django management utility
+- manifest.json: Project metadata, dependencies, source files, and execution commands
 
 ## Installation Instructions
 
